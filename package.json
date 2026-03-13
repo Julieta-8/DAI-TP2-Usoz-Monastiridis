@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node EJ01.js",
+    "start": "node EJ03.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
