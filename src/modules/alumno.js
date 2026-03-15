@@ -1,16 +1,9 @@
 
-const Brisa = {
-edad: 17,
-nombre: "brisa",
-apellido: "Monastiridis",
-DNI: 49183043
+const Alumno = {
+ constructor(username, dni) {
+        this.username = username;
+        this.dni = dni;
+    }
 }
 
-
-const Juli = {
-edad: 17,
-nombre: "Juleita",
-apellido: "Usoz",
-DNI: 48799592
-
-}
+export default Alumno;
