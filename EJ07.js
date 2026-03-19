@@ -1,4 +1,4 @@
-import currency from 'country-to-currency';
+import {currency} from 'currency';
 
 
 let moneda = obtenerMoneda("AR");
