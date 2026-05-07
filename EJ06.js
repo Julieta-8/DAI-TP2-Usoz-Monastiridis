@@ -1,6 +1,6 @@
 import { URL } from 'url';
 
-function parsearUrl(dir){
+export function parsearUrl2(dir){
     const urlObj = new URL(dir);
     return {
         host: urlObj.origin,
@@ -8,7 +8,4 @@ function parsearUrl(dir){
         parametros: Object.fromEntries(urlObj.searchParams.entries())
     };
 }
-
-let objeto = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo");
-console.log(objeto);
 
