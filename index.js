@@ -1,6 +1,6 @@
 import './EJ01.js';
 import './EJ02.js';
-import { obtenerMoneda } from './EJ03.js';
+import './EJ03.js';
 import { cambiarNombre } from './EJ04.js';
 import { parsearUrl } from './EJ05.js';
 import { parsearUrl } from './EJ06.js';
